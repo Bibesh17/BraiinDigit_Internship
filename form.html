@@ -4,32 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form and input</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form action="#" target="_self" method="get">
-      <label for="firstname">firstname:</label><br />
-      <input
-        type="text"
-        id="firstname"
-        name="firstname"
-        placeholder="Enter your firstname"
-      /><br />
-      <label for="password">password:</label><br />
-      <input
-        type="password"
-        id="password"
-        placeholder="Enter your password"
-        name="password"
-      /><br /><br />
+    <nav style="padding: 20px; position: relative">
+      <form
+        action="#"
+        target="_self"
+        method="get"
+        onsubmit="alert('your form has been submited')"
+      >
+        <p>Please fill up the form</p>
+        <label for="firstname">firstname:</label><br />
+        <input
+          type="text"
+          id="firstname"
+          name="firstname"
+          placeholder="Enter your firstname"
+          required
+        /><br />
+        <label for="password">password:</label><br />
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your password"
+          name="password"
+          required
+        /><br /><br />
+        <h3>Where do you work ?</h3>
+        <input type="radio" id="BrainDigit" name="work" value="BrainDigit" />
+        <label for="work">BrainDigit</label><br />
+        <input
+          type="radio"
+          id="Neema"
+          name="work"
+          required
+          value="Neema Academy"
+        />
+        <label for="work">Neema Academy</label> <br /><br />
+        <label for="vechicle">Choose your Transportation medium </label>
+        <select id="vechicle" name="vechicle" required>
+          <option value="Bus">Bus</option>
+          <option id="Bike" name="Bike" value="Bike">Bike</option>
+          <option id="car" name="car" value="car">car</option></select
+        ><br /><br />
+        <label for="number">please enter your salary</label><br />
+        <input
+          type="number"
+          id="number"
+          name="salary "
+          placeholder="salary in Nrs"
+          required
+        />
 
-      <input type="radio" id="BrainDigit" name="work" value="BrainDigit" />
-      <label for="work">BrainDigit</label><br />
-      <input type="radio" id="Neema " name="work" value="Neema Academy" />
-      <label for="Neema">Neema Academy</label>
-
-      <br /><br />
-      <button type="submit" id="submit">submit</button>
-    </form>
-    <p>Please fill up the form</p>
+        <br /><br />
+        <button type="submit" id="submit">submit</button>
+      </form>
+    </nav>
   </body>
 </html>
