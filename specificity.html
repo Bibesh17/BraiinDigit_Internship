@@ -1,0 +1,66 @@
+<!DOCTYPE >
+<html>
+  <head>
+    <style>
+      p {
+        color: red;
+      }
+
+      .para {
+        color: blue;
+      }
+
+      #para1 {
+        color: green;
+      }
+
+      #div12 p {
+        color: rgb(112, 58, 104);
+      }
+
+      .div1 .article {
+        color: pink;
+      }
+
+      #div12 .article {
+        color: rgb(82, 199, 78);
+      }
+
+      #div12 #art1 {
+        color: rgb(191, 76, 155);
+        background-color: aqua;
+      }
+
+      #para2 {
+        background-color: springgreen;
+      }
+
+      .name {
+        background-color: blueviolet;
+      }
+
+      /* The CSS !important rule 
+            when !important is use is overrides all the previous value and set it to the highest priority
+             
+     */
+
+      .div1 .para {
+        color: chartreuse !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="div1" id="div12">
+      <p class="para" id="para1">Hello world</p>
+
+      <article class="article" id="art1">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum eaque
+        quae quos eos porro nesciunt inventore voluptatem iure rerum eveniet!
+      </article>
+
+      <span class="name" id="name1"> Bibesh pokharel</span>
+    </div>
+    <p class="para" id="para2">Hello world</p>
+  </body>
+</html>
