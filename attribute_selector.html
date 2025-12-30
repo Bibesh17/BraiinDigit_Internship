@@ -3,19 +3,55 @@
   <head>
     <style>
       input[type="text"] {
-        background-color: red;
+        background-color: rgb(133, 237, 230);
+      }
+
+      input[type="password"] {
+        background-color: rgb(5, 240, 111);
+        border-radius: 16px;
+      }
+
+      body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgb(163, 201, 235);
+        margin: 20px;
+        padding: 20px;
+      }
+
+      .div1 {
+        background-color: rgb(191, 186, 138);
+        padding: 10px;
+        margin: 10px;
+        margin-top: 5rem;
       }
     </style>
   </head>
   <body>
-    <h2>CSS [attribute] Selector</h2>
-
-    <p>Select and style the links with a target attribute:</p>
-
-    <div>
-      <h1>My name is bibesh</h1>
-      <br />
-      <input type="text" placeholder="Enter your name" />
+    <div class="div1">
+      <div class="div2">
+        <h2>CSS [attribute] Selector</h2>
+        <br />
+        <p>Select and style the links with a target attribute:</p>
+      </div>
+      <div>
+        <h1>My name is bibesh</h1>
+        <label for="Username">Enter your Username</label><br />
+        <input
+          type="text"
+          id="Username"
+          placeholder="Enter your name"
+        /><br /><br />
+        <label for="password">Enter your password</label><br />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="enter your password"
+        />
+      </div>
     </div>
   </body>
 </html>
