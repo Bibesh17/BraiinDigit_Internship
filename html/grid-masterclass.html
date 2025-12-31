@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grid MasterClass Demo</title>
     <style>
+      body {
+        background-color: #8cd6b9;
+        padding: 15px;
+      }
       h1,
       h2 {
         color: rgb(108, 114, 114);
@@ -33,10 +37,52 @@
       .box:nth-child(even) {
         background-color: rgba(226, 28, 28, 0.801);
       }
+
+      #myDIV {
+        height: 300px;
+        display: grid;
+        gap: 10px;
+        background-color: #2196f3;
+        padding: 10px;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+        grid-template-rows: auto auto;
+      }
+
+      .item6 {
+        grid-row: span 2;
+        grid-column: span 2;
+        width: 400px;
+      }
+      #myDIV div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 2px;
+        font-size: 30px;
+      }
+      #myDIV2 {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        gap: 20px;
+        max-height: fit-content;
+        padding: 10px;
+        grid-template-rows: auto auto auto auto;
+        background-color: #2196f3;
+      }
+
+      #myDIV2 div {
+        background-color: antiquewhite;
+        text-align: center;
+      }
+
+      #myDIV2 .item13 {
+        background-color: aqua;
+        grid-row: span 3;
+      }
     </style>
   </head>
   <body>
     <h1>Grid Practice at internship</h1>
+    <h3>The grid-template-columns property</h3>
     <div class="container">
       <h2>1. Basic Grid(3*3)</h2>
       <div
@@ -124,6 +170,25 @@
         <div class="box">10</div>
         <div class="box">11</div>
       </nav>
+    </div>
+    <div id="myDIV">
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+      <div class="item4">4</div>
+      <div class="item5">500</div>
+      <div class="item6">6</div>
+    </div>
+
+    <h1>2. The grid property</h1>
+
+    <div id="myDIV2">
+      <div class="item11">10</div>
+      <div class="item12">20</div>
+      <div class="item13">30</div>
+      <div class="item14">40</div>
+      <div class="item15">50</div>
+      <div class="item16">60</div>
     </div>
   </body>
 </html>
