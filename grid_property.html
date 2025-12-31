@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #e7e9eb;
+      }
+      #myDIV {
+        height: 300px;
+        display: grid;
+        gap: 10px;
+        background-color: #2196f3;
+        padding: 10px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 2fr);
+      }
+      #myDIV div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The grid-template-columns property</h1>
+
+    <div id="myDIV">
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+      <div class="item4">4</div>
+      <div class="item5">500</div>
+      <div class="item6">6</div>
+    </div>
+  </body>
+</html>
