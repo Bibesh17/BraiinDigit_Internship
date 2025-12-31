@@ -11,13 +11,21 @@
         gap: 10px;
         background-color: #2196f3;
         padding: 10px;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 2fr);
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+        grid-template-rows: auto auto;
+      }
+
+      .item6 {
+        grid-row: span 2;
+        grid-column: span 2;
+        width: 400px;
+
+        
       }
       #myDIV div {
         background-color: rgba(255, 255, 255, 0.8);
         text-align: center;
-        padding: 20px 0;
+        padding: 2px;
         font-size: 30px;
       }
     </style>
