@@ -1,8 +1,8 @@
 body {
-  background-color: rgba(107, 145, 227, 0.678);
+  background: linear-gradient(135deg, #dff5ee, #b7e4d8);
   margin: 10px;
   padding: 10px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 
@@ -28,7 +28,6 @@ img {
 
 h1 {
   color: #333;
-  margin-bottom: 20px;
 }
 
 p {
@@ -64,4 +63,117 @@ small {
 
 h2 {
   color: rgba(0, 0, 0, 0.63);
+}
+
+.nav {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.mainDv {
+  background-color: #282a35;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  margin: 10px;
+  padding: 10px;
+  gap: 10px;
+  height: 30rem;
+}
+#main1 .mainH {
+  color: whitesmoke;
+  margin-top: 150px;
+}
+
+.mainh3 {
+  color: black;
+}
+.mainh31 {
+  color: #fff4a3;
+}
+.mainSearch {
+  border-radius: 16px;
+  width: 20rem;
+  height: 2rem;
+  text-align: center;
+}
+
+.search-box i {
+  position: absolute;
+  top: 50%;
+  left: 18rem;
+  transform: translateY(-50%);
+}
+.search-box {
+  position: relative;
+  display: flex;
+  gap: 5px;
+}
+
+.maindv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 16px;
+}
+
+.html-content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.html-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 200px;
+}
+
+#html-example .art-exam {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  color: #00000083;
+}
+
+.btnvideo {
+  background-color: yellowgreen;
+  height: 2rem;
+}
+
+.btnvideo2 {
+  background-color: #33353fd7;
+  height: 2rem;
+  color: whitesmoke;
+}
+
+.btnvideo1 {
+  height: 2rem;
+  background-color: #059862;
+  color: whitesmoke;
+}
+.trybtn {
+  height: 2rem;
+  width: 8rem;
+  background-color: #059862;
+  color: whitesmoke;
+}
+
+.cssexam {
+  background-color: #fff4a3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 16px;
+}
+
+.js-example {
+  background-color: #f3ecea;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 16px;
+  font-family: Arial, Helvetica, sans-serif;
 }
