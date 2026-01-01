@@ -7,6 +7,13 @@
   </head>
 
   <style>
+    body {
+      background: linear-gradient(135deg, #dff5ee, #b7e4d8);
+      margin: 10px;
+      padding: 50px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
     .p1 {
       display: inline;
       background-color: aqua;
@@ -17,21 +24,32 @@
       background-color: red;
     }
 
-    .p3 {
+    .div3 {
       display: flex;
       justify-content: center;
       background-color: bisque;
+      flex-direction: row;
+      gap: 10px;
+    }
+    .p3 {
+      background-color: thistle;
     }
 
-    .p4 {
+    .div3 .h2 {
+      background-color: rgb(109, 127, 186);
+    }
+    .p5div {
       display: grid;
-      grid-template-columns: 1fr 2fr 3fr;
-      background-color: brown;
+      background-color: rgb(201, 28, 28);
+      gap: 10px;
     }
 
     .p5 {
-      display: none;
       background-color: yellow;
+    }
+
+    .p6 {
+      background-color: rgb(34, 76, 160);
     }
   </style>
   <body>
@@ -47,15 +65,14 @@
       voluptatibus ipsum distinctio modi tenetur eligendi eum rem numquam? Quod,
       deleniti.
     </p>
-    <div>
-      <p class="p3"></p>
-      <h1>
+    <div class="div3">
+      <p class="p3">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
         veniam, aspernatur quis exercitationem natus placeat ea tempore, fuga
         incidunt voluptatibus ipsum distinctio modi tenetur eligendi eum rem
         numquam? Quod, deleniti.
-      </h1>
-      <h2>
+      </p>
+      <h2 class="h2">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
         veniam, aspernatur quis exercitationem natus placeat ea tempore, fuga
         incidunt voluptatibus ipsum distinctio modi tenetur eligendi eum rem
@@ -68,20 +85,29 @@
       aspernatur quis exercitationem natus placeat ea tempore, fuga incidunt
       voluptatibus ipsum distinctio modi tenetur eligendi eum rem numquam? Quod,
       deleniti.
+    </p>
 
-      <h2>hello</h2>
-    </p>
-    <p class="p5">
+    <h2>hello</h2>
+    <div class="p5div">
+      <p class="p5">
+        hello, ipsum dolor sit amet consectetur adipisicing elit. Repellat
+        veniam, aspernatur quis exercitationem natus placeat ea tempore, fuga
+        incidunt voluptatibus ipsum distinctio modi tenetur eligendi eum rem
+        numquam? Quod, deleniti.
+      </p>
+      <aside>
+        bye ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit,
+        quos? Odio blanditiis illo pariatur provident alias minus doloribus,
+        commodi maiores iure numquam animi eum aperiam necessitatibus labore
+        ipsa expedita natus!
+      </aside>
+    </div>
+    <br /><br />
+    <span class="p6">
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat veniam,
       aspernatur quis exercitationem natus placeat ea tempore, fuga incidunt
       voluptatibus ipsum distinctio modi tenetur eligendi eum rem numquam? Quod,
       deleniti.
-    </p>
-    <p class="p6">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat veniam,
-      aspernatur quis exercitationem natus placeat ea tempore, fuga incidunt
-      voluptatibus ipsum distinctio modi tenetur eligendi eum rem numquam? Quod,
-      deleniti.
-    </p>
+    </span>
   </body>
 </html>
