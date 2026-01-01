@@ -4,6 +4,10 @@ body {
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .container {
@@ -14,7 +18,7 @@ body {
 }
 
 .content {
-  background-color: rgba(142, 230, 211, 0.719);
+  background-color: rgba(90, 210, 184, 0.719);
   text-align: center;
   justify-content: center;
   padding: 2rem;
@@ -192,4 +196,31 @@ h2 {
 
 .indexul li {
   margin: 10px;
+}
+
+/* landing page */
+
+.landing-body {
+  background: linear-gradient(135deg, #dff5ee, #b7e4d8);
+  margin: 10px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+span {
+  color: rgba(44, 58, 148, 0.839);
+}
+
+.learnh2 {
+  color: #282a35;
+}
+
+.foot1{
+  margin: 20px;
+  padding: 20px;
 }
