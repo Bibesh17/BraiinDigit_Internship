@@ -2,7 +2,6 @@ body {
   background: linear-gradient(135deg, #dff5ee, #b7e4d8);
   margin: 10px;
   padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   margin: 10px;
   padding: 10px;
@@ -32,6 +31,27 @@ img {
 
 h1 {
   color: #333;
+}
+
+/* internship btn */
+#interbtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10rem;
+  font-weight: 900;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+#interbtn:hover {
+  transform: translateY(-2px);
+}
+
+#interbtn:active {
+  transform: translateY(0);
 }
 
 p {
@@ -123,6 +143,11 @@ h2 {
   flex-direction: row;
   justify-content: space-evenly;
   padding: 16px;
+  border-color: #63c8c1;
+  border-width: 10px;
+  border-style: solid;
+  margin: 10px 6px 16px 10px;
+  border-radius: 16px;
 }
 
 .html-content {
@@ -151,10 +176,11 @@ h2 {
   padding: 0 1rem;
   border: none;
   cursor: pointer;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
-  box-sizing: border-box;
+  width: 9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .btnvideo {
@@ -178,6 +204,7 @@ h2 {
 }
 
 .cssexam {
+  box-sizing: border-box;
   background-color: #fff4a3;
   display: flex;
   flex-direction: row;
@@ -239,4 +266,32 @@ span {
 
 .btncss1 {
   object-fit: contain;
+}
+
+#indexfooter {
+  background-color: #282a35;
+  margin: 10px 2.5px 10px 2.5px;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+#indexfooter ul {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  list-style: disc;
+  color: whitesmoke;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(71, 172, 211);
+}
+
+.flex-container div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
 }
