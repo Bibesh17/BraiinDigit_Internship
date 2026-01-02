@@ -235,8 +235,13 @@ h2 {
 
 .indexul li {
   margin: 10px;
+  text-decoration: dotted;
+  
 }
 
+.indexul{
+ text-decoration: none;
+}
 /* landing page */
 
 .landing-body {
