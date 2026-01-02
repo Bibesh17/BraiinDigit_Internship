@@ -75,7 +75,7 @@ h2 {
   justify-content: space-around;
 }
 
-.mainDv {
+.maindv1 {
   background-color: #282a35;
   align-items: center;
   display: flex;
@@ -89,6 +89,7 @@ h2 {
 #main1 .mainh {
   color: whitesmoke;
   margin-top: 150px;
+  font-size: xxx-large;
 }
 
 .mainh3 {
@@ -96,6 +97,7 @@ h2 {
 }
 .mainh31 {
   color: #fff4a3;
+  font-size: x-large;
 }
 .mainSearch {
   border-radius: 16px;
@@ -142,20 +144,30 @@ h2 {
   color: #00000083;
 }
 
+.btnvideo,
+.btnvideo1,
+.btnvideo2 {
+  height: 2rem;
+  padding: 0 1rem;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
 .btnvideo {
   background-color: yellowgreen;
-  height: 2rem;
+}
+
+.btnvideo1 {
+  background-color: #059862;
+  color: whitesmoke;
 }
 
 .btnvideo2 {
   background-color: #33353fd7;
-  height: 2rem;
-  color: whitesmoke;
-}
-
-.btnvideo1 {
-  height: 2rem;
-  background-color: #059862;
   color: whitesmoke;
 }
 .trybtn {
@@ -220,7 +232,11 @@ span {
   color: #282a35;
 }
 
-.foot1{
+.foot1 {
   margin: 20px;
   padding: 20px;
+}
+
+.btncss1 {
+  object-fit: contain;
 }
